@@ -1,0 +1,6 @@
+google-generativeai
+pandas
+numpy
+python-dotenv
+ipykernel
+jupyter

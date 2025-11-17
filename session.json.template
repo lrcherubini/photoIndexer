@@ -1,0 +1,38 @@
+{
+  "session_details": {
+    "type": "Família | Evento | Produto | Corporativo | etc",
+    "location": "Local onde a sessão foi realizada",
+    "date": "YYYY-MM-DD",
+    "client": {
+      "name": "Nome do Cliente Principal",
+      "industry": "Pessoal | Comercial | Corporativo | etc"
+    }
+  },
+  "contextual_description": "Descrição geral da sessão de fotos e contexto.",
+  "people": [
+    {
+      "name": "Nome da Pessoa Principal (Cliente)",
+      "role": "Cliente/Função",
+      "visual_cues": "Descrição visual para ajudar a IA: gênero, idade aproximada, características distintivas",
+      "priority": "PRIMARY",
+      "note": "Esta é a CLIENTE PRINCIPAL - sempre use seu nome quando ela aparecer nas fotos"
+    },
+    {
+      "name": "Nome de Pessoa Secundária",
+      "role": "Familiar/Amigo/Colega",
+      "visual_cues": "Descrição visual",
+      "priority": "SECONDARY"
+    },
+    {
+      "name": "Nome de Outra Pessoa",
+      "role": "Função/Relação",
+      "visual_cues": "Descrição visual",
+      "priority": "TERTIARY"
+    }
+  ],
+  "identification_priority": "CRÍTICO: Sempre identifique a pessoa PRIMARY pelo nome quando ela aparecer. Para SECONDARY e TERTIARY, use nomes quando possível identificar com confiança. Use termos genéricos APENAS quando não puder identificar com certeza.",
+  "photo_reference": {
+    "primary_subject": "nome_do_arquivo_referencia.jpg",
+    "description": "Descrição de qual foto usar como referência visual principal (ex: retrato solo, rosto claro)"
+  }
+}
