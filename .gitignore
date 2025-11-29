@@ -35,4 +35,5 @@ indice_fotos.csv
 
 # Session files
 session.json
+session_enriched.json
 .test
