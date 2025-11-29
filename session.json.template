@@ -1,0 +1,35 @@
+{
+  "session_details": {
+    "type": "Família | Evento | Produto | Corporativo | etc",
+    "location": "Local onde a sessão foi realizada",
+    "date": "YYYY-MM-DD",
+    "client": {
+      "name": "Nome do Cliente Principal",
+      "industry": "Pessoal | Comercial | Corporativo | etc"
+    }
+  },
+  "contextual_description": "Descrição geral da sessão de fotos e contexto.",
+  "people": [
+    {
+      "name": "Nome da Pessoa Principal (Cliente)",
+      "role": "Cliente/Função",
+      "visual_cues": "Descrição visual para ajudar a IA: gênero, idade aproximada, características distintivas",
+      "priority": "PRIMARY",
+      "note": "Esta é a CLIENTE PRINCIPAL - sempre use seu nome quando ela aparecer nas fotos",
+      "reference_photo": "nome_arquivo_referencia.jpg"
+    },
+    {
+      "name": "Nome de Pessoa Secundária",
+      "role": "Familiar/Amigo/Colega",
+      "visual_cues": "Descrição visual",
+      "priority": "SECONDARY",
+      "reference_photo": "opcional_referencia2.jpg"
+    },
+    {
+      "name": "Nome de Outra Pessoa",
+      "role": "Função/Relação",
+      "visual_cues": "Descrição visual",
+      "priority": "TERTIARY"
+    }
+  ]
+}
